@@ -30,6 +30,7 @@ http.createServer((request,response)=>{
             read("./favicon.ico",response)
             break;
         default:
+            response.statusCode=404;
             read("./404.html",response)
             break;
     }
