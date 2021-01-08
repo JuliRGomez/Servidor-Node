@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
     <h1> Bienvenido, hola </h1>
+    <div class="container">
+        <form action="/usuario" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="name">Ingrese nombre:</label>
+            <input type="text" class="form-control" id="name" name="Nombre">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Ingrese apellido:</label>
+            <input type="text" class="form-control" id="lastName" name="Apellidos">
+          </div>
+            <div class="form-group">
+              <label for="email">Ingrese correo:</label>
+              <input type="email" class="form-control" id="email" name="Email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Ingrese contraseña:</label>
+              <input type="password" class="form-control" id="pwd" name="Contraseña">
+            </div>
+            
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+    </div>
+    
 </body>
 </html>

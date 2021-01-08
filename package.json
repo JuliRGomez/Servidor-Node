@@ -11,6 +11,7 @@
   "author": "JuliRGomez",
   "license": "ISC",
   "dependencies": {
+    "mime": "^2.4.7",
     "nodemon": "^2.0.6"
   }
 }

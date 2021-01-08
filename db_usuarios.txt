@@ -1,0 +1,21 @@
+Nombre: ------WebKitFormBoundarydh5xbo6Qre8SqGpe
+Content-Disposition: form-data; name="Nombre"
+
+julian
+------WebKitFormBoundarydh5xbo6Qre8SqGpe
+Content-Disposition: form-data; name="Apellidos"
+
+rios
+------WebKitFormBoundarydh5xbo6Qre8SqGpe
+Content-Disposition: form-data; name="Email"
+
+julirg58@gmail.com
+------WebKitFormBoundarydh5xbo6Qre8SqGpe
+Content-Disposition: form-data; name="Contraseña"
+
+1245678
+------WebKitFormBoundarydh5xbo6Qre8SqGpe--
+
+Apellidos: undefined
+Email: undefined
+Contraseña: undefined
