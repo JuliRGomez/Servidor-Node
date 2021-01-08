@@ -74,6 +74,9 @@ Contraseña: ${dataSplit[3]}`
                 else{
                    // response.setHeader("Content-Type","text/html");
                   //  response.write("<h1>Datos guardado</h1>")
+                  response.setHeader("location","/");//redireccion hacia raiz
+                  response.statusCode=302;//este debe ser el codigo de redirecion
+                  response.end();
                 }
             });
         });
