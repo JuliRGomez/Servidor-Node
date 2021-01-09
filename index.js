@@ -46,14 +46,15 @@ http.createServer((request,response)=>{
         let data = '';
         
         request.on('data', chunk => {
-            console.log(chunk.toString())
-            //console.log("entrando");
+             //console.log("entrando");
             //console.log(chunk);
             data += chunk;
         });
         request.on('end', () => {
             //data=decodeURIComponent(escape(data))
-           
+        
+          narray=data.split(" ");
+          console.log(narray[0]);     
             let dataSplit=data.split("&");
             let completeString=`Nombre: ${dataSplit[0]}
 Apellidos: ${dataSplit[1]}
