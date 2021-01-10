@@ -1,20 +1,20 @@
-Nombre: ------WebKitFormBoundaryzHflStkb8DgzTTwS
-Content-Disposition: form-data; name="Nombre"
+Nombre: ------WebKitFormBoundaryoJQE1gpFYpBJws3j
+Content-Disposition: form-data; name="firstName"
 
-juli
-------WebKitFormBoundaryzHflStkb8DgzTTwS
-Content-Disposition: form-data; name="Apellidos"
+Julian
+------WebKitFormBoundaryoJQE1gpFYpBJws3j
+Content-Disposition: form-data; name="lastName"
 
-rios 
-------WebKitFormBoundaryzHflStkb8DgzTTwS
+Rios
+------WebKitFormBoundaryoJQE1gpFYpBJws3j
 Content-Disposition: form-data; name="Email"
 
-julirg58@gmail.com
-------WebKitFormBoundaryzHflStkb8DgzTTwS
-Content-Disposition: form-data; name="Contraseña"
+julirg58@gmail.co
+------WebKitFormBoundaryoJQE1gpFYpBJws3j
+Content-Disposition: form-data; name="Password"
 
-12345678
-------WebKitFormBoundaryzHflStkb8DgzTTwS--
+123456
+------WebKitFormBoundaryoJQE1gpFYpBJws3j--
 
 Apellidos: undefined
 Email: undefined
