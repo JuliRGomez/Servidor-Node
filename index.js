@@ -32,19 +32,16 @@ http.createServer((request,response)=>{
     else if(request.method === "POST"){
         
         let data = '';
-        
-
-        request.on('data', chunk => {
+            request.on('data', chunk => {
             data += chunk;
         });
         request.on('end', () => {
-            
             let userobj={firstName:"",lastName:"",Email:"",Password:""};
             reciveData.forEach(element=>{
-                let pos=data.search(element);
-                let pos2=data.indexOf("-",pos);
-                userobj[element]=data.slice(pos+element.length+1,pos2).trim();
-            });
+            let pos=data.search(element);
+            let pos2=data.indexOf("-",pos);
+            userobj[element]=data.slice(pos+element.length+1,pos2).trim();
+        });
             console.log(userobj);
             dataSave("db_usuarios.json",userobj,response)
         });
